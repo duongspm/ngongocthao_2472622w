@@ -14,9 +14,9 @@
     $config['news'][$nametype]['content'] = true;
     $config['news'][$nametype]['content_cke'] = true;
     $config['news'][$nametype]['seo'] = true;
-    $config['news'][$nametype]['width'] = 300;
-    $config['news'][$nametype]['height'] = 300;
-    $config['news'][$nametype]['thumb'] = '300x300x1';
+    $config['news'][$nametype]['width'] = 550;
+    $config['news'][$nametype]['height'] = 350;
+    $config['news'][$nametype]['thumb'] = '550x350x1';
     $config['news'][$nametype]['img_type'] = '.jpg|.gif|.png|.jpeg|.gif';
 
     /* Even */
@@ -34,9 +34,9 @@
     $config['news'][$nametype]['content'] = true;
     $config['news'][$nametype]['content_cke'] = true;
     $config['news'][$nametype]['seo'] = true;
-    $config['news'][$nametype]['width'] = 300;
-    $config['news'][$nametype]['height'] = 300;
-    $config['news'][$nametype]['thumb'] = '300x300x1';
+    $config['news'][$nametype]['width'] = 550;
+    $config['news'][$nametype]['height'] = 350;
+    $config['news'][$nametype]['thumb'] = '550x350x1';
     $config['news'][$nametype]['img_type'] = '.jpg|.gif|.png|.jpeg|.gif';
 
     /* Quản lý mục (Không cấp) */

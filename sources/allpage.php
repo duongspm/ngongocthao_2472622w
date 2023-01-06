@@ -13,6 +13,8 @@ $logo = $cache->get("select id, photo, options from #_photo where type = ? and a
 
 $social = $cache->get("select name$lang, photo, link from #_photo where type = ? and find_in_set('hienthi',status) order by numb,id desc", array('social'), 'result', 7200);
 
+$music = $cache->get("select name$lang, photo, link from #_photo where type = ? and find_in_set('hienthi',status) order by numb,id desc", array('music'), 'result', 7200);
+
 // need
 
 /* Get statistic */

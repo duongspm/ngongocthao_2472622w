@@ -1,7 +1,7 @@
 <div class="footer">
     <div class="wrapper">
         <div class="footerr">
-            <div class="footer-name">
+            <a href="" title="Trang Chủ" class="text-decoration-none footer-name">
                 <span>
                     <?php
                         $name=$setting['name'.$lang];
@@ -13,7 +13,7 @@
                         <?=$name2?>
                     </span>
                 </span>
-            </div>
+            </a>
         </div>
     </div>
     <div class="copyright">
@@ -34,7 +34,7 @@
             <div class="copyright-bottom">
                 <span>© <?=date("Y",time())?>
                     <?=$setting['name'.$lang]?>
-                    Web design : Nina Co., Ltd</span>
+                    . Web design : Nina Co., Ltd</span>
             </div>
         </div>
     </div>
